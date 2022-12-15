@@ -28,9 +28,16 @@ a {
     height: 50px;
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container {
+    flex-shrink: 0;
+    flex-basis: 1000px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 250px;
 }
 
 .header .logo {
@@ -39,7 +46,46 @@ a {
 }
 
 .links {
-    font-size: 80px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* ******* */
+
+/* Greeting */
+
+.greeting {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.greeting .container {
+    flex-grow: 0;
+    flex-basis: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.greeting-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.greeting-pic {
+    display: flex;
+}
+
+.greeting .blurb {
+    text-align: center;
+}
+
+.greeting .text {
+    color: gray;
 }
 
 /* ******* */
@@ -58,3 +104,5 @@ body.div {
 
 
 /* ******* */
+
+* { border: 1px solid red; }

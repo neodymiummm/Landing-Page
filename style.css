@@ -59,14 +59,18 @@ a {
 
 /* Greeting */
 
-.greeting {
+/* ******* */
+
+/* Info */
+
+.info {
     background-color: white;
     height: 400px;
     display: flex;
     justify-content: center;
 }
 
-.greeting .container {
+.info .container {
     flex-grow: 0;
     flex-basis: 800px;
     display: flex;
@@ -75,27 +79,37 @@ a {
     gap: 50px;
 }
 
-.greeting-title {
+.info-title {
     text-align: center;
     font-size: 32px;
     font-weight: 900;
 }
 
-.greeting-pic {
+.info-pic {
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-.greeting .blurb {
+.info .blurb {
     text-align: center;
 }
 
-.greeting .text {
+.info .img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info .text {
+    width: 150px;
     color: gray;
 }
 
 /* ******* */
 
-/* Header */
+/* Quote */
 
 .quote {
     background-color: #E5E7EB;
@@ -196,4 +210,4 @@ a {
 
 /* ******* */
 
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */

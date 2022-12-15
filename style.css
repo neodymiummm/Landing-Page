@@ -90,9 +90,41 @@ a {
 
 /* ******* */
 
+/* Header */
+
 .quote {
     background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
+
+.quote .container {
+    flex-grow: 0;
+    flex-basis: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .attribution {
+    width: 700px;
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    text-align: right;
+}
+
+/* ******* */
 
 body.div {
     width: 100%;

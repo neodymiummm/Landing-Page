@@ -145,6 +145,7 @@ a {
     height: 150px;
     width: 900px;
     background-color: #3882F6;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,9 +180,19 @@ a {
 
 /* ******* */
 
-/* Header */
+/* Footer */
 
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer .text {
+    font-size: 14px;
+    color: white;
+}
 
 /* ******* */
 

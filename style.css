@@ -24,7 +24,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
 }
 
 /* Header */
@@ -50,14 +50,57 @@ a {
     font-weight: 900;
 }
 
-.links {
-    font-size: 18px;
-    color: #E5E7EB;
+.header .links {
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
 }
 
 /* ******* */
 
 /* Greeting */
+
+.greeting {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting .text {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.greeting p {
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.greeting #greeting-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.greeting button {
+    align-self: flex-start;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 4px 20px;
+}
+
+.greeting img {
+    height: 200px;
+    width: 500px;
+    object-fit: cover;
+}
 
 /* ******* */
 
@@ -105,6 +148,7 @@ a {
 .info .text {
     width: 150px;
     color: gray;
+    margin-top: 10px;
 }
 
 /* ******* */
